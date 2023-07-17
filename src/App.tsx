@@ -7,7 +7,7 @@ import Footer from './footer'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [] = useState(0)
 
   return (
     <>
@@ -15,10 +15,12 @@ function App() {
     
    <div className="relative ">
     <img src="../img/1.jpeg" className='w-screen' alt="" />
-    <img src="../img/4.jpeg" className='w-screen' alt="" />
+    <img src="../img/4.jpeg" className='w-screen sm:mt-[300px] lg:mt-0' alt="" />
    <Navbar />
    <Div1 />
+
    <Footer />
+
 </div>
     
    </div>
